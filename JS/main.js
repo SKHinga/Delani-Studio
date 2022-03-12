@@ -1,0 +1,12 @@
+$('.toggle').click(()=>{
+  $('.paragraph').toggle();
+  $('.icon').toggle();
+})
+$('.tog').click(()=>{
+  $('.graph').toggle();
+  $('.con').toggle();
+})
+$('.togg').click(()=>{
+  $('.para').toggle();
+  $('.ico').toggle();
+})

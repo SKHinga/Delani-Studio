@@ -7,3 +7,6 @@
   background-image: url(../Assets/backgrounds/s_image.jpg);
   height: 60vh;
 }
+.dis {
+  display: none;
+}
