@@ -39,3 +39,26 @@
   border: 2px black solid;
   box-shadow: none;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.overlay h2{
+  border: 2px solid white;
+  width: 80%;
+  height: 80%;
+  /* padding-right: 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
