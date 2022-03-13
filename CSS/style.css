@@ -31,6 +31,9 @@
   border-radius: 10px;
   padding: 2px 10px;
 }
+.btn:focus {
+  box-shadow: none;
+}
 [placeholder="Your message here..."]:focus {
   background: transparent;
   border: 2px black solid;
