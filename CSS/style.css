@@ -42,15 +42,16 @@
 .overlay {
   position: absolute;
   top: 0;
-  left: 3%;
+  left: 3.5%;
   right: 0;
   bottom: 0;
-  width: 95%;
+  width: 93%;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  opacity: 0;
 }
 .overlay h2{
   border: 2px solid white;
