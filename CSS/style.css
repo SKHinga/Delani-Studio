@@ -2,10 +2,12 @@
   background-image: url(../Assets/backgrounds/h_img.jpg);
   height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .services {
   background-image: url(../Assets/backgrounds/s_image.jpg);
   height: 60vh;
+  background-repeat: no-repeat;
 }
 .dis {
   display: none;
@@ -16,6 +18,7 @@
 .form {
   background-image: url(../Assets/backgrounds/c_image.jpg);
   height: 90vh;
+  background-repeat: no-repeat;
 }
 .put {
   background: transparent;
