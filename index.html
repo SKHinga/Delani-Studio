@@ -175,20 +175,20 @@
     </div>
     <section class="form mt-5 d-flex flex-column justify-content-center item-align-center">
       <div class="container">
-        <form action="Submit">
+        <form action="https://formspree.io/f/xlezleeg" method="POST">
           <h2 class="text-light text-center">CONTACT US</h2>
           <div class="row">
             <div class="col-lg-6">
-              <input type="text" placeholder="Name..." class="w-100 put mt-3" required>
+              <input type="text" placeholder="Name..." class="w-100 put mt-3" name="name" required>
             </div>
             <div class="col-lg-6">
-              <input type="email" placeholder="Email..." class="w-100 put mt-3" required>
+              <input type="email" placeholder="Email..." class="w-100 put mt-3" name="email" required>
             </div>
           </div>
           <!-- <input type="textarea" placeholder="Your message here..." class="w-100 mx-auto d-block put" rows="10"> -->
-          <textarea class="form-control put mt-3" placeholder="Your message here..." id="floatingTextarea" rows="10" required></textarea>
+          <textarea class="form-control put mt-3" placeholder="Your message here..." id="floatingTextarea" rows="10" name="message" required></textarea>
           <div class="text-end">
-            <button type="button" class="btn mt-3">SEND</button>
+            <button type="submit" class="btn mt-3">SEND</button>
           </div>
         </form>
       </div>

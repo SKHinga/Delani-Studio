@@ -50,3 +50,6 @@ $('#fourth').hover(()=>{
 }, function(){
   $('#depart').css('opacity', '0')
 })
+$('button:submit').click(()=>{
+  alert("Thank you for contacting us! We'll be sure to get back to you.");
+})
